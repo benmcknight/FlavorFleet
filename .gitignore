@@ -1,0 +1,12 @@
+#File Vault
+.vlt
+
+#Package Files
+*.jar
+
+#Intellij
+.idea/
+*.iml
+*.iws
+out/
+.idea_modules/
