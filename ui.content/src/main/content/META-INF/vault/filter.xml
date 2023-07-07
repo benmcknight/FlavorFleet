@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/FlavorFleet" mode="merge"/>
+    <filter root="/content/FlavorFleet" mode="merge"/>
+    <filter root="/content/dam/FlavorFleet" mode="merge">
+        <exclude pattern="/content/dam/FlavorFleet(/.*)?"/>
+        <include pattern="/content/dam/FlavorFleet/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/FlavorFleet/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/FlavorFleet" mode="merge"/>
+</workspaceFilter>
